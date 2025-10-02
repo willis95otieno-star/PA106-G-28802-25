@@ -8,7 +8,7 @@ on the charges, and displays the total bill in 2 decimal places*/
 
 int main()
 {
-	int water_units;
+	float water_units;
 	float total_water_bills;
 	
 	printf("enter water units consumed: ",water_units);
@@ -31,4 +31,5 @@ int main()
 	printf("\ntotal water bills: %.2f",total_water_bills);
 	
 	return 0;
+
 }
